@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(superpowers:brainstorming)",
+      "Skill(superpowers:writing-plans)",
+      "Bash(cp \"skills/wechat-writer/knowledge/style_guide.md\" \".claude/skills/wechat-writer/knowledge/style_guide.md\")",
+      "Bash(cp \"skills/wechat-writer/knowledge/published_article_index.md\" \".claude/skills/wechat-writer/knowledge/published_article_index.md\")",
+      "Bash(cp \"skills/wechat-writer/knowledge/素材库.md\" \".claude/skills/wechat-writer/knowledge/素材库.md\")",
+      "Bash(cp \"skills/wechat-writer/knowledge/team_memory.md\" \".claude/skills/wechat-writer/knowledge/team_memory.md\")",
+      "Bash(cp \"skills/wechat-writer/SKILL.md\" \".claude/skills/wechat-writer/SKILL.md\")",
+      "Bash(python3 *)",
+      "Bash(python *)",
+      "Bash(cp \"skills/wechat-writer/scripts/config_check.py\" \".claude/skills/wechat-writer/scripts/config_check.py\")",
+      "Bash(cp \"skills/wechat-writer/knowledge/README.md\" \".claude/skills/wechat-writer/knowledge/README.md\")",
+      "Bash(cp \"skills/wechat-writer/references/core_personas.md\" \".claude/skills/wechat-writer/references/core_personas.md\")",
+      "Bash(cp \"skills/wechat-writer/references/io_schema.md\" \".claude/skills/wechat-writer/references/io_schema.md\")",
+      "Bash(cp \"skills/wechat-writer/references/template_01_plan.md\" \".claude/skills/wechat-writer/references/template_01_plan.md\")",
+      "Bash(cp \"skills/wechat-writer/scripts/review_toolkit.py\" \".claude/skills/wechat-writer/scripts/review_toolkit.py\")",
+      "Skill(superpowers:requesting-code-review)",
+      "Bash(grep -rn \"style_guide_david\" skills/ .claude/skills/)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(echo \"EXIT CODE: $?\")",
+      "Bash(python3 skills/wechat-writer/scripts/config_check.py)",
+      "Read(//tmp/**)"
+    ]
+  }
+}
